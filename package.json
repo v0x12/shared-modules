@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "git": "git add . && git commit -m \"Automatising the update commands\" && git push origin master",
+    "build": "del-cli build && tsc",
+    "pub": "npm run build && npm run git && npm version patch && npm run publish",
     "start": "nodemon -L src/index.ts",
     "test": "jest --watchAll --no-cache"
   },
