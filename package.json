@@ -4,6 +4,9 @@
   "description": "",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
+  "files": [
+    "build"
+  ],
   "scripts": {
     "git": "git add . && git commit -m \"Automatising the update commands\" && git push origin master",
     "build": "del-cli build && tsc",
