@@ -2,7 +2,8 @@
   "name": "@v0x12/shared-modules",
   "version": "1.0.3",
   "description": "",
-  "main": "index.js",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
   "scripts": {
     "git": "git add . && git commit -m \"Automatising the update commands\" && git push origin master",
     "build": "del-cli build && tsc",
