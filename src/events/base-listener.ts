@@ -34,7 +34,7 @@ export abstract class Listener<T extends Event> {
     );
 
     subscription.on("message", (msg: Message) => {
-      console.log(`Message received on ${this.subject}.`);
+      console.log(`Message received on ${this.subject}!`);
       const parsedData = this.parseMessage(msg);
 
       this.onMessage(parsedData, msg);

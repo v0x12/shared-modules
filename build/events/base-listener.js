@@ -57,7 +57,7 @@ var Listener = /** @class */ (function () {
             return __generator(this, function (_a) {
                 subscription = this._client.subscribe(this.subject, this.queueGroupName, this.subscriptionOptions());
                 subscription.on("message", function (msg) {
-                    console.log("Message received on " + _this.subject + ".");
+                    console.log("Message received on " + _this.subject + "!");
                     var parsedData = _this.parseMessage(msg);
                     _this.onMessage(parsedData, msg);
                 });
