@@ -20,7 +20,7 @@ export * from "./events/event-types/user-created-event";
 export * from "./events/event-types/user-created-event";
 
 // exporting subjects for the listener and publisher
-// for avoid misstyping the event for the publish.
+// for avoid misstyping the event for the publish, and listen.
 // critical to use both on listener and publisher the subjects
 // which was defined in the subjects enum
 export * from "./events/subjects";

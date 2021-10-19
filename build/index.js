@@ -28,7 +28,7 @@ __exportStar(require("./events/base-publisher"), exports);
 __exportStar(require("./events/event-types/user-created-event"), exports);
 __exportStar(require("./events/event-types/user-created-event"), exports);
 // exporting subjects for the listener and publisher
-// for avoid misstyping the event for the publish.
+// for avoid misstyping the event for the publish, and listen.
 // critical to use both on listener and publisher the subjects
 // which was defined in the subjects enum
 __exportStar(require("./events/subjects"), exports);
