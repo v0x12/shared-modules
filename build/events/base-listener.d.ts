@@ -9,7 +9,7 @@ export declare abstract class Listener<T extends Event> {
     protected abstract queueGroupName: string;
     protected _client: Stan;
     ackWait: number;
-    protected abstract onMessage(data: T["data"], msg: Message): Promise<void>;
+    abstract onMessage(data: T["data"], msg: Message): Promise<void>;
     constructor(client: Stan);
     private subscriptionOptions;
     listen(): Promise<void>;
