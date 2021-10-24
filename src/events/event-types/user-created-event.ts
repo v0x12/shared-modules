@@ -5,7 +5,7 @@ export interface UserCreatedEvent {
   data: {
     id: string;
     email: string;
-    userName: string;
+    username: string;
     firstName: string;
     lastName: string;
     avatarUrl: string;
