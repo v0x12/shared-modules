@@ -10,5 +10,5 @@ export * from "./middlewares/validate-request";
 export * from "./events/base-listener";
 export * from "./events/base-publisher";
 export * from "./events/event-types/user-created-event";
-export * from "./events/event-types/user-created-event";
+export * from "./events/event-types/user-updated-event";
 export * from "./events/subjects";
