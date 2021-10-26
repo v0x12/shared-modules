@@ -1,5 +1,5 @@
 import { Subjects } from "../subjects";
-
+// Version added for handle concurrency issues
 export interface UserUpdatedEvent {
   Subjects: Subjects.USER_UPDATED;
   data: {
