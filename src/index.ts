@@ -18,6 +18,7 @@ export * from "./events/base-publisher";
 // exporting event types for extends the abstract classes
 export * from "./events/event-types/user-created-event";
 export * from "./events/event-types/user-updated-event";
+export * from './events/event-types/post-created-event';
 
 // exporting subjects for the listener and publisher
 // for avoid misstyping the event for the publish, and listen.
