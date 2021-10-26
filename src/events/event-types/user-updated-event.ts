@@ -9,5 +9,6 @@ export interface UserUpdatedEvent {
     firstName: string;
     lastName: string;
     avatarUrl: string;
+    version: string;
   };
 }
